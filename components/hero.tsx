@@ -114,8 +114,8 @@ export default function Hero() {
       >
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stop-color="hsl(217, 102%, 99%)" offset="0%"></stop>
-            <stop stop-color="hsl(217,88%, 93%)" offset="100%"></stop>
+            <stop stopColor="hsl(217, 102%, 99%)" offset="0%"></stop>
+            <stop stopColor="hsl(217,88%, 93%)" offset="100%"></stop>
           </linearGradient>
         </defs>
         <path
