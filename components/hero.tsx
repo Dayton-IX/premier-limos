@@ -114,8 +114,8 @@ export default function Hero() {
       >
         <defs>
           <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stopColor="hsl(217, 102%, 99%)" offset="0%"></stop>
-            <stop stopColor="hsl(217,88%, 93%)" offset="100%"></stop>
+            <stop stopColor="#fafcff" offset="0%"></stop>
+            <stop stopColor="#dde9fd" offset="100%"></stop>
           </linearGradient>
         </defs>
         <path
@@ -129,8 +129,8 @@ export default function Hero() {
           <div className="grid lg:grid-cols-2 gap-12 flex items-center">
             <div className="mt-12 lg:mt-0">
               <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                The best offer <br />
-                <span className="text-blue-600">for your business</span>
+                Utah's Premier<br />
+                <span className="text-blue-600">Private Transportation Service</span>
               </h1>
               <a
                 className="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
