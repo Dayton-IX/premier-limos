@@ -1,88 +1,149 @@
-export default function Hero() {
+export default function Contact() {
   return (
-    <section className="mb-40">
-      <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
-        <div className="px-6 w-full flex flex-wrap items-center justify-between">
-          <div className="flex items-center">
-            <a className="navbar-brand text-blue-600 flex flex-row items-center" href="#!">
-              <svg
-                className="w-5 h-5 ml-2 lg:ml-0 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 576 512"
-              >
-                <path
-                  fill="currentColor"
-                  d="M485.5 0L576 160H474.9L405.7 0h79.8zm-128 0l69.2 160H149.3L218.5 0h139zm-267 0h79.8l-69.2 160H0L90.5 0zM0 192h100.7l123 251.7c1.5 3.1-2.7 5.9-5 3.3L0 192zm148.2 0h279.6l-137 318.2c-1 2.4-4.5 2.4-5.5 0L148.2 192zm204.1 251.7l123-251.7H576L357.3 446.9c-2.3 2.7-6.5-.1-5-3.2z"
-                ></path>
-              </svg>
-              <h3 className="text-blue-600 font-semibold ml-2">Premier Limos</h3>
-            </a>
-          </div>
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div>
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            Brand new
+          </p>
         </div>
-      </nav>
-
-      <svg
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        preserveAspectRatio="none"
-        className="svg absolute hidden lg:block"
-        style={{
-          height: "560px",
-          width: "100%",
-          zIndex: -10,
-          overflow: "hidden",
-        }}
-      >
-        <defs>
-          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-            <stop stopColor="#fafcff" offset="0%"></stop>
-            <stop stopColor="#dde9fd" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#sw-gradient-0)"
-          d="M 0.351 264.418 C 0.351 264.418 33.396 268.165 47.112 270.128 C 265.033 301.319 477.487 325.608 614.827 237.124 C 713.575 173.504 692.613 144.116 805.776 87.876 C 942.649 19.853 1317.845 20.149 1440.003 23.965 C 1466.069 24.779 1440.135 24.024 1440.135 24.024 L 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L 0.351 264.418 Z"
-        ></path>
-      </svg>
-
-      <div className="px-6 py-12 lg:my-12 md:px-12 text-gray-800 text-center lg:text-left">
-        <div className="container mx-auto xl:px-32">
-          <div className="grid lg:grid-cols-2 gap-12 flex items-center">
-            <div className="mt-12 lg:mt-0">
-              <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                Utah's Premier<br />
-                <span className="text-blue-600">Private Transportation Service</span>
-              </h1>
-              <a
-                className="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-                href="#!"
-                role="button"
-              >
-                Get started
-              </a>
-              <a
-                className="inline-block px-7 py-3 bg-transparent text-blue-600 font-medium text-sm leading-snug uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-                href="#!"
-                role="button"
-              >
-                Learn more
-              </a>
-            </div>
-            <div className="mb-12 lg:mb-0">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/city/017.jpg"
-                className="w-full rounded-lg shadow-lg"
-                alt=""
+        <h1 className="max-w-lg mb-6 font-sans text-5xl font-bold leading-none tracking-tight text-gray-900 sm:text-6xl md:mx-auto">
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="9a29985a-fc16-419b-ae53-1670f5ca4491"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#9a29985a-fc16-419b-ae53-1670f5ca4491)"
+                width="52"
+                height="24"
               />
-            </div>
-          </div>
-        </div>
+            </svg>
+            <span className="relative text-blue-600">Premier</span>
+          </span>{' '}
+          Limos
+
+        </h1>
+        <p className="text-base text-gray-700 md:text-lg">
+          Now catering premium transportation services to you and your party in the Ogden area!
+          Send us a message to get a quote for your next event!
+        </p>
       </div>
-    </section>
+      <div className="grid max-w-screen-lg gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-4 sm:mx-auto">
+        <img
+          className="object-cover w-full h-56 rounded shadow-lg"
+          src="img/limo/03.webp"
+          alt=""
+        />
+        <img
+          className="object-cover w-full h-56 rounded shadow-lg"
+          src="img/limo/01.webp"
+          alt=""
+        />
+        <img
+          className="object-cover w-full h-56 rounded shadow-lg"
+          src="img/limo/02.webp"
+          alt=""
+        />
+        <img
+          className="object-cover w-full h-56 rounded shadow-lg"
+          src="img/limo/04.webp"
+          alt=""
+        />
+      </div>
+      <div className="flex items-center sm:justify-center">
+        <a
+          href="#contact"
+          className="inline-flex text-center flex hover:shadow-xl hover:bg-blue-500 items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+        >
+          Contact Us
+          <svg
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            height="1em"
+            width="1em"
+            className="ml-1"
+          >
+            <path d="M21.426 11.095l-17-8A1 1 0 003.03 4.242l1.212 4.849L12 12l-7.758 2.909-1.212 4.849a.998.998 0 001.396 1.147l17-8a1 1 0 000-1.81z" />
+          </svg>
+        </a>
+      </div>
+    </div>
   );
-}
+};
+
+// export default function Hero() {
+//   return (
+//     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+//       <div className="flex gap-10 flex-col-reverse md:grid items-center justify-center lg:grid-cols-2">
+//         <div className="flex-col-reverse justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+//           <div className="max-w-xl mb-6">
+//             <h1 className="max-w-lg text-5xl font-bold tracking-tight mb-10 sm:text-6xl" ><span className="text-blue-600">Premier {" "}</span> Limos</h1>
+//             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+//               Let us handle
+//               <br className="hidden md:block" />
+//               your next{' '}
+//               <span className="inline-block text-blue-600">
+//                 destination
+//               </span>
+//             </h2>
+//             <p className="text-base text-gray-700 md:text-lg">
+//               Delivering premium transportation to you and your party in the Ogden area!
+//               <br />
+//               Send us a message to get a quote for your next event!
+//             </p>
+//           </div>
+//           <div>
+//             <a
+//               href="#contact"
+//               aria-label=""
+//               className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+//             >
+//               Contact Us
+//               <svg
+//                 className="inline-block w-3 ml-2"
+//                 fill="currentColor"
+//                 viewBox="0 0 12 12"
+//               >
+//                 <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+//               </svg>
+//             </a>
+//           </div>
+//         </div>
+//         <div className="flex items-center justify-center -mx-4 lg:pl-8">
+//           <div className="flex flex-col items-end px-3">
+//             <img
+//               className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+//               src="img/limo/01.webp"
+//               alt=""
+//             />
+//             <img
+//               className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+//               src="img/limo/02.webp"
+//               alt=""
+//             />
+//           </div>
+//           <div className="px-3">
+//             <img
+//               className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+//               src="img/limo/03.webp"
+//               alt=""
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
