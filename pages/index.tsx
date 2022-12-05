@@ -10,7 +10,7 @@ export default function Home() {
         <title>Premier Limos</title>
       </Head>
 
-      <main>
+      <main className="scroll-smooth">
         <Hero />
         <Contact />
       </main>
