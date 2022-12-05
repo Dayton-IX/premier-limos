@@ -11,8 +11,8 @@ export default async function handler(
   try {
     await client.login(process.env.TAKEOUT_API_KEY)
     const emailTemplate = {
-      to: "max.dayton@protonmail.com",
-      from: "Premier Limos",
+      to: "premierlimo07@gmail.com",
+      from: req.body.email,
       subject: "New message from " + req.body.name + " (" + req.body.email + ")",
       text: req.body.message
     }
