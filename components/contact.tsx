@@ -14,10 +14,12 @@ export default function Contact() {
     event.preventDefault()
     setFormStatus(FormStatus.LOADING)
 
+    const currentTarget: any = event.currentTarget
+
     const data = {
-      name: event.currentTarget.name.value,
-      email: event.currentTarget.email.value,
-      message: event.currentTarget.message.value
+      name: currentTarget.name.value,
+      email: currentTarget.email.value,
+      message: currentTarget.message.value
     }
 
     const response = await fetch("/api/send-email", {
