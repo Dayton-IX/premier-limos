@@ -13,11 +13,11 @@ export default function Home() {
               <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
                 <Carousel>
                   <img
-                    src="img/limo/04.webp"
+                    src="img/limo/05.webp"
                     alt=""
                   />
                   <img
-                    src="img/limo/03.webp"
+                    src="img/limo/04.webp"
                     alt=""
                   />
                   <img
@@ -29,7 +29,11 @@ export default function Home() {
                     alt=""
                   />
                   <img
-                    src="img/limo/05.webp"
+                    src="img/limo/03.webp"
+                    alt=""
+                  />
+                  <img
+                    src="img/limo/06.webp"
                     alt=""
                   />
                 </Carousel>
